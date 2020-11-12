@@ -27,17 +27,8 @@ def formtest(request):
 
 def starter(request):
     #setting up form
-    form=InputForm(request.POST)
-    if request.method=="POST": 
-        
-        if form.is_valid():
-            scalar=form.cleaned_data['scalar']
-            print("This is the scalar:" )
-            print(scalar)
-    else:
-        form=None
-     
-   
+
+    
     #Creating the plots
     x=[0,1,0.5,1,1.5,2,2.5,3]
     y0=[2**i for i in x]
