@@ -40,7 +40,7 @@ def starter(request):
 
     #pylint: disable=too-many-function-args
     plot0.circle(x,y0, size=20, color="blue")
-    #Defines the data as x being [1,10,35,27] and [0,0,0,0]
+
     #Defines the data points to be blue circles of size 20
     
     #Trying out a combo plot
